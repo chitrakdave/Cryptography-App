@@ -5,34 +5,26 @@ It also includes a utility to generate dummy files of different sizes for encryp
 
 ⚙️ **Features**
 
-AES Encryption/Decryption
+## 🔒 Features
 
-Supports CBC and CTR modes
+### 🧩 AES Encryption/Decryption
+- Supports **CBC** and **CTR** modes  
+- Tests with **128-bit** and **256-bit** keys  
 
-Tests with 128-bit and 256-bit keys
+### 🔑 RSA Encryption/Decryption
+- Uses **PKCS1_OAEP** padding  
+- Key sizes: **2048-bit** and **3072-bit**  
 
-RSA Encryption/Decryption
+### 🧮 Hashing Algorithms
+- **SHA-256**  
+- **SHA-512**  
+- **SHA3-256**  
 
-Uses PKCS1_OAEP padding
+### 🖋️ DSA Digital Signatures
+- Key sizes: **2048-bit** and **3072-bit**  
+- Uses **DSS (Digital Signature Standard)** for signing and verification  
 
-Key sizes: 2048-bit and 3072-bit
+### ⚡ Performance Metrics
+- Measures execution time *(in nanoseconds or microseconds)*  
+- Calculates **speed per byte** for encryption, decryption, hashing, and signing  
 
-Hashing Algorithms
-
-SHA-256
-
-SHA-512
-
-SHA3-256
-
-DSA Digital Signatures
-
-Key sizes: 2048-bit and 3072-bit
-
-Uses DSS (Digital Signature Standard) for signing and verification
-
-Performance Metrics
-
-Measures execution time (in nanoseconds or microseconds)
-
-Calculates speed per byte for encryption, decryption, hashing, and signing
