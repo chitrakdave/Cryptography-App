@@ -28,3 +28,35 @@ It also includes a utility to generate dummy files of different sizes for encryp
 - Measures execution time *(in nanoseconds or microseconds)*  
 - Calculates **speed per byte** for encryption, decryption, hashing, and signing  
 
+## 🚀 How to Run
+
+### 1. Install Dependencies
+```bash
+pip install pycryptodome
+
+### 2. **Generate Test Files **
+python createFiles.py
+
+This will create:
+smallFile.txt (1 KB)
+
+largeFile_1MB.txt (1 MB)
+
+largeFile.txt (10 MB)
+
+### **3. Run Cryptographic Tests**
+python cryptotools.py
+
+You’ll see detailed timing and speed results for all algorithms.
+
+🧠 **Concepts Covered**
+
+Symmetric key encryption (AES)
+
+Asymmetric key encryption (RSA)
+
+Hashing algorithms
+
+Digital signatures using DSA
+
+Performance benchmarking of cryptographic operations
