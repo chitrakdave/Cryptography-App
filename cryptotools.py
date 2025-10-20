@@ -249,7 +249,7 @@ for hashKey,hashType in hashTypes.items():
     print(f'Total speed per byte taken to hash using {hashKey} bit  {totalSpeed_hash} bytes/micro seconds \n')
 
 
-print('\n############## DSA ##############\n')
+print('\n############## DSA ################\n')
 DSAkey_length = [2048,3072]
 
 for DSAKey in DSAkey_length:
