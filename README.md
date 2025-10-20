@@ -31,7 +31,6 @@ It also includes a utility to generate dummy files of different sizes for encryp
 ## 🚀 How to Run
 
 ### 1. Install Dependencies
-```bash
 pip install pycryptodome
 
 2. Generate Test Files
