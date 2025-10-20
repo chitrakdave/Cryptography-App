@@ -33,7 +33,7 @@ It also includes a utility to generate dummy files of different sizes for encryp
 ### 1. Install Dependencies
 pip install pycryptodome
 
-2. Generate Test Files
+### 2. Generate Test Files
 python createFiles.py
 
 This will create:
@@ -44,12 +44,12 @@ largeFile_1MB.txt (1 MB)
 
 largeFile.txt (10 MB)
 
-3. Run Cryptographic Tests
+### 3. Run Cryptographic Tests
 python cryptotools.py
 
 You’ll see detailed timing and speed results for all algorithms.
 
-🧠 Concepts Covered
+### 🧠 Concepts Covered
 
 Symmetric key encryption (AES)
 
@@ -60,7 +60,3 @@ Hashing algorithms
 Digital signatures using DSA
 
 Performance benchmarking of cryptographic operations
-
-
-✅ Copy and paste this directly into your `README.md` — it will render perfectly on GitHub with headings, code blocks, and lists.
-
